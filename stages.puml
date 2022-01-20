@@ -2,6 +2,8 @@
 
 (*) --> "Load config.inc.php"
 
+"Load config.inc.php" --> "Preload"
+
 "Preload" --> "Entrypoint"
 
 "Entrypoint" --> "Controller runtime" 
