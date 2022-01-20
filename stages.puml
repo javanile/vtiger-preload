@@ -1,0 +1,11 @@
+@startuml
+
+(*) --> "Load config.inc.php"
+
+"Preload" --> "Entrypoint"
+
+"Entrypoint" --> "Controller runtime" 
+
+"Controller runtime" --> (*)
+
+@enduml
