@@ -4,10 +4,10 @@
 
 "Load config.inc.php" --> "Preload"
 
-"Preload" --> "Entrypoint"
+"Preload" --> "Loader"
 
-"Entrypoint" --> "Controller runtime" 
+"Loader" --> "Controller" 
 
-"Controller runtime" --> (*)
+"Controller" --> (*)
 
 @enduml
